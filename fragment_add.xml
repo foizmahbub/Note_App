@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#104E69"
+    tools:context=".AddFragment">
+<EditText
+    android:id="@+id/tittleET"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="text"
+    android:background="@drawable/et_bg"
+    android:hint="What to do?"
+    android:padding="12dp"
+    android:textAlignment="center"
+    android:textSize="20sp"
+    android:layout_margin="10dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/DateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick a date"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:background="@drawable/btn_bg"
+        android:layout_margin="10dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/TimeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick a time"
+        android:textStyle="bold"
+        android:backgroundTint="#6D49AD"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:background="@drawable/btn_bg"
+        android:layout_margin ="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:backgroundTint="#A60D54"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="10dp"/>
+
+
+
+</LinearLayout>

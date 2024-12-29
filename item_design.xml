@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="8dp"
+    android:backgroundTint="#12A618"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="8dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:padding="6dp"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/noteTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tomorrow i am going to Dhaka"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/DateTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="26-12-2024"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#0D0A64"/>
+        <TextView
+            android:id="@+id/TimeTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5:55 PM"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#9D106E"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
